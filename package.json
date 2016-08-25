@@ -10,7 +10,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-util": "^3.0.7",
-    "shelljs": "^0.7.0"
+    "shelljs": "^0.7.0",
+    "bower": "^1.7.9"
   },
   "scripts": {
     "postinstall": "gulp build",
@@ -18,8 +19,7 @@
   },
   "devDependencies": {
     "angular-translate": "^2.11.0",
-    "angular-translate-loader-static-files": "^2.11.0",
-    "bower": "^1.7.9"
+    "angular-translate-loader-static-files": "^2.11.0"
   },
   "cordovaPlugins": [
     "cordova-plugin-device",
