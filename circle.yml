@@ -1,5 +1,0 @@
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: hidden-stream-37223
