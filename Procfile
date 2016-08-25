@@ -1,4 +1,4 @@
 "scripts": {
-  "postinstall": "gulp build",
+  "postinstall": "ionic build android",
   "start": "node server.js"
 }
