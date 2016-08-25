@@ -1,0 +1,28 @@
+﻿
+<ion-view view-title="Configuration">
+    <ion-content>
+        <h1>Configuration</h1>
+        <ul class="list">
+            <li class="item item-toggle">
+                {{'DARK_THEME' | translate}}
+                <label class="toggle toggle-dark">
+                    <input checked="" type="checkbox" ng-model="item" ng-change="updateTheme(item)">
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </li>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    {{'LANGUAGE' | translate}}
+                </div>
+                <select ui-select2 ng-change="refreshLanguage({{language}})" ng-model="language">
+                    <option ng-repeat="language in languages" value="{{language}}">{{language}}</option>
+                </select>
+            </label>
+            <button class="button icon-left ion-information-circled button-clear button-positive" ng-click="showAlert()">
+                Alert
+            </button>
+        </ul>
+    </ion-content>
+</ion-view>
